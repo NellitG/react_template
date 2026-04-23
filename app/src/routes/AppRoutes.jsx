@@ -6,6 +6,8 @@ import MainLayout from "../layouts/MainLayout";
 import ProtectedRoute from "../components/ProtectedRoute";
 import Login from "../pages/Login";
 import AdminPage from "../pages/AdminPage";
+import Feature from "../pages/Feature";
+import Ecoommerce from "../pages/Ecoommerce";
 
 
 
@@ -21,6 +23,8 @@ export default function AppRoutes() {
           element={
             <MainLayout>
               <Home />
+              <Feature />
+              <Ecoommerce />
             </MainLayout>
           }
         />
