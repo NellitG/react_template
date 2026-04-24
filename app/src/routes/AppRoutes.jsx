@@ -9,9 +9,6 @@ import AdminPage from "../pages/AdminPage";
 import Feature from "../pages/Feature";
 import Ecoommerce from "../pages/Ecoommerce";
 
-
-
-
 export default function AppRoutes() {
   return (
     <BrowserRouter>
